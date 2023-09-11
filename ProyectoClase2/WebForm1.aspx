@@ -9,6 +9,22 @@
 <body>
     <form id="form1" runat="server">
         <div>
+            <asp:Label ID="Label1" runat="server" Text="Cargar Receta"></asp:Label>
+            <br />
+            <br />
+            <asp:Label ID="Label2" runat="server" Text="Ingresar nombre de la receta:"></asp:Label>
+        &nbsp;<asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+            <br />
+            <br />
+            <asp:Label ID="Label3" runat="server" Text="Ingresar ingrediente:"></asp:Label>
+        &nbsp;<asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
+            <br />
+            <asp:Label ID="Label4" runat="server" Text="Ingresar Cantidad:"></asp:Label>
+            &nbsp;<asp:TextBox ID="TextBox3" runat="server"></asp:TextBox>
+            <br />
+            <br />
+            <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" style="height: 29px" Text="Agregar" />
+            <br />
         </div>
     </form>
 </body>
