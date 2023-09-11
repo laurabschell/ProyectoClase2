@@ -25,6 +25,10 @@
             <br />
             <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" style="height: 29px" Text="Agregar" />
             <br />
+            <br />
+            <br />
+            <asp:Label ID="Label5" runat="server" Text="Ingredientes agregados"></asp:Label>
+            <br />
         </div>
     </form>
 </body>
